@@ -34,7 +34,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest api/tests
+          python -m pytest api/tests
 
   deploy_infra:
     name: Deploy ARM template
